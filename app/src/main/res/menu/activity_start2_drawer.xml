@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Acceuil" />
+        <item
+            android:id="@+id/nav_profil"
+            android:icon="@drawable/ic_man_user"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_standard"
+            android:icon="@drawable/ic_shopping_purse_icon"
+            android:title="Courses Standart" />
+        <item
+            android:id="@+id/nav_vip"
+            android:icon="@drawable/ic_bag"
+            android:title="Courses V.I.P " />
+        <item
+            android:id="@+id/nav_restaurant"
+            android:icon="@drawable/ic_restaurant"
+            android:title="Retaurants" />
+        <item
+            android:id="@+id/nav_supermarche"
+            android:icon="@drawable/ic_shop_store_frontal_building"
+            android:title="Supermarchés" />
+        <item
+            android:id="@+id/nav_amazon"
+            android:icon="@drawable/ic_shopping_cart"
+            android:title="Amazon" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_share"
+            android:title="Inviter un ami" />
+
+        <item
+            android:id="@+id/nav_connection"
+            android:icon="@drawable/ic_power_button_off"
+            android:title="Se Déconnecter" />
+    </group>
+
+
+
+
+</menu>

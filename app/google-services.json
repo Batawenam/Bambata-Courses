@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "558199676958",
+    "firebase_url": "https://bambatacourses-75b96.firebaseio.com",
+    "project_id": "bambatacourses-75b96",
+    "storage_bucket": "bambatacourses-75b96.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:558199676958:android:d7913213e4250970",
+        "android_client_info": {
+          "package_name": "com.example.root.bambata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "558199676958-rjg8h8etm28e1huao4v5u02jr6psujok.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.root.bambata",
+            "certificate_hash": "a89f183d900f0886cd5ea0a652610acf4ec26d52"
+          }
+        },
+        {
+          "client_id": "558199676958-m00ao4uhhs19hbik0h66via5bgojas4r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3JxgBWTzahC0qbDdkZgjTvt5k3Cvdu8I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "558199676958-m00ao4uhhs19hbik0h66via5bgojas4r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

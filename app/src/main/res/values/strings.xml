@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">BAMBATA Courses</string>
+    <string name="title_activity_start">StartActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="connectwithphone">Se connecter avec votre numéro</string>
+    <string name="donthaveaccount">Vous n\'avez pas de compte ?</string>
+    <string name="signup"><u>Inscrivez-vous</u></string>
+    <string name="nom">Nom</string>
+    <string name="pr_nom">Prénom</string>
+    <string name="num_ro_de_t_l_phone">Numéro de Téléphone</string>
+    <string name="mots_de_passe">Mots de passe</string>
+    <string name="continuer">Continuer</string>
+    <string name="verifiaction_code">Veuillez entrez le code de vérification que vous avez reçu par sms</string>
+    <string name="code">Code</string>
+    <string name="terminer">Terminer</string>
+</resources>

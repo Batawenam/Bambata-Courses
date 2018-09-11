@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    android:background="@drawable/side_nav_bar"
+    tools:context=".SignInActivity">
+
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/google_sign_in_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+    </com.google.android.gms.common.SignInButton>
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="Se connecter avec Facebook"
+        android:layout_margin="4dp"
+        android:textAllCaps="false"
+        android:elevation="100dp"/>
+    <Button
+        android:id="@+id/signin_with_phone_button"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/ic_phone_iphone_black_24dp"
+        android:drawableTint="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textAllCaps="false"
+        android:text="@string/connectwithphone"
+        android:layout_margin="4dp"
+        android:elevation="100dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/donthaveaccount"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/create_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/signup"
+            android:linksClickable="true"
+            android:textColor="@color/white"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFF"
+        android:text="@string/app_name"
+        android:layout_margin="4dp"
+        android:elevation="100dp"
+        android:visibility="invisible"/>
+
+
+
+</LinearLayout>
